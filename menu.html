@@ -1,0 +1,31 @@
+---
+layout: default
+title: "Menu"
+permalink: /menu/
+---
+<h2 class='centered'>Menu</h2>
+<p>Magnolia is proud to present a world class French American menu and some kind of descriptor here, make it sound delicious</p>
+
+
+<div id="tabs">
+  <ul>
+    <li><h3><a href="#tabs-1">Appetizers &amp; Salads</a></h3></li>
+    <li><h3><a href="#tabs-2">Brunch</a></h3></li>
+    <li><h3><a href="#tabs-3">Dinner</a></h3></li>
+    <li><h3><a href="#tabs-4">Drinks</a></h3></li>
+  </ul>
+  <div id="tabs-1">
+    {% include menu/apps.html %}
+  </div>
+  <div id="tabs-2">
+    {% include menu/brunch.html %}
+  </div>
+  <div id="tabs-3">
+    {% include menu/dinner.html %}
+  </div>
+  <div id="tabs-4">
+    {% include menu/drinks.html %}
+  </div>
+
+</div>
+

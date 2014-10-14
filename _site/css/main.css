@@ -1,0 +1,88 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+body {
+  //background: url('/images/table-plates-dark.jpg') no-repeat center center fixed;
+  //background: url('/images/magnolia-wide-dark.jpg') no-repeat center center fixed;
+  background: url('/images/magnolia-menu-dark.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  background-color: #fdfdfd;
+  color: white;
+  font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  text-shadow: 0 0 5px rgba(0,0,0,0.9);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.15s ease-in;
+}
+a:hover   { color: #b4bf8f; }
+a:visited { color: #fff; }
+
+p {
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+  text-shadow: 0 0 5px rgba(0,0,0,0.9);
+}
+
+img { width: 100%; }
+
+.centered { text-align: center; }
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+:focus {
+  outline-color: transparent;
+  outline-style: none;
+  }
+
+input {
+  border: 0;
+}
+
+.row {
+  overflow: hidden;
+}
+.column {
+  padding: 0 1em;
+}
+
+.column.half {
+  float: left;
+  width: 50%;
+}
+
+
+.content {
+}
+
+.wrap {
+  overflow: hidden;
+  margin: 3em auto;
+  width: 90%;
+}
+

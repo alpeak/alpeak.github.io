@@ -1,0 +1,141 @@
+#chef-portrait {
+  margin-top: 5em;
+}
+header {
+  position: fixed;
+  width: 15%;
+}
+header img {
+  max-width: 100%;
+}
+
+.page-content {
+  float: right;
+  padding: 0 3em;
+  width: 80%;
+}
+
+
+
+
+
+
+nav a {
+  display: block;
+  font-weight: bold;
+  margin-left: 20px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+nav a:hover {
+  color: #b4bf8f;
+}
+
+
+
+.module {
+  display: block;
+  float: left;
+  margin-bottom: 1em;
+  padding: 0 15px;
+  width: 33%;
+}
+
+.module h3 {
+  text-align: center;
+}
+
+.module p,
+.module ul {
+  font-size: .9em;
+  line-height: 1.25em;
+}
+
+.hours {
+  padding: 0 5px;
+}
+.hours li {
+  border-bottom: 1px dotted rgba(255,255,255,0.25);
+  padding: 3px 0;
+}
+.hours span {
+  float: right;
+}
+
+/*
+  ===================================================
+  =ME Menu
+  ===================================================
+*/
+
+.menu {
+  display: block;
+  margin: 0 auto;
+}
+.menu li.item {
+  border-bottom: 1px dotted rgba(255,255,255,0.3);
+}
+.menu li.item span {
+  font-family: "Adobe Garamond Pro";
+  font-style: italic;
+  float: right;
+}
+
+.menu li.descriptor {
+  font-family: "Adobe Garamond Pro";
+  font-style: italic;
+  font-weight: 100;
+  padding: 10px 1em;
+}
+
+#tabs div {
+  padding: 1em;
+}
+
+#tabs > ul {
+  overflow: hidden;
+}
+#tabs > ul li {
+  float: left;
+  padding: 5px 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .wrap {
+    margin: 10px auto;
+  }
+  .column {
+    border: 1px solid green;
+    width: 100% !important;
+  }
+  .module {
+    width: 100%;
+  }
+  header {
+    border: 2px solid red;
+    position: relative;
+    width: 100%;
+  }
+  .site-title {
+    border: 1px solid red;
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  .site-nav a {
+    border: 1px solid blue;
+    float: left;
+    margin: 0;
+    text-align: center;
+    width: 25%;
+  }
+  .page-content {
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+  }
+  #chef-portrait {
+    margin: 0;
+  }
+}

@@ -1,0 +1,10 @@
+# Site settings
+title: Magnolia
+email: cpeak66@gmail.com
+description: "Uptown's greatest cafe where diners can enjoy some much better writing than I am capable of"
+baseurl: ""
+url: "http://magnoliacafeuptown.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
